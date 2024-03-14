@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /*deixando o padrão do REM para 10px ao invés de 16px */
+}
+
+body{
+    background: #121214;
+    font-size: 1.6rem;
+    font-family: 'Mulish';
+}
+
+.card{
+    padding: 0 3.2rem 3.2rem;
+    background: #202024;
+    border: 2px solid #323238;
+    border-radius: 0.8rem;
+}
+
+.card h2{
+    color: #E1E1E6;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 2.4rem 3.2rem 0;
+}
+
+.card p{
+    color: #C4C4CC;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2.4rem 3.2rem 3.2rem;
+}
