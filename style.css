@@ -4,33 +4,62 @@
     box-sizing: border-box;
 }
 
-:root{
-    font-size: 62.5%; /*deixando o padrão do REM para 10px ao invés de 16px */
-}
-
 body{
     background: #121214;
-    font-size: 1.6rem;
     font-family: 'Mulish';
+    padding: 72px 104px;
+    justify-content: center;
+}
+
+h1{
+    color:#02799D;
+    font-family: Mulish;
+    font-size: 58.287px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 7rem;
+}
+
+p{
+    color: #E1E1E6;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 7rem;
+}
+
+/*Aplicando o grid*/
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 48px 60px;
+    place-content: center;
 }
 
 .card{
-    padding: 0 3.2rem 3.2rem;
     background: #202024;
     border: 2px solid #323238;
-    border-radius: 0.8rem;
+    border-radius: 8px;
+}
+
+.card img {
+    max-width: 100%; /* Definindo a largura máxima da imagem como 100% */
+    max-height: 100%; /* Definindo a altura máxima da imagem como 100% */
+    object-fit: contain; /* Fazendo a imagem se ajustar à caixa sem distorção */
 }
 
 .card h2{
     color: #E1E1E6;
     font-weight: 900;
-    font-size: 3.5rem;
-    padding: 2.4rem 3.2rem 0;
+    font-size: 35px;
+    padding: 24px 32px 0;
 }
 
 .card p{
     color: #C4C4CC;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 600;
-    padding: 2.4rem 3.2rem 3.2rem;
+    padding: 24px 32px 32px;
 }
